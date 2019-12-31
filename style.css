@@ -1,0 +1,43 @@
+body{
+    background:#FF847A;
+}
+
+.dots{
+    text-align: center;
+    padding-top: 20%;
+  /*   border:2px solid black; */
+}
+
+.one{
+    background:white;
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    animation: MoveUpDown 1.5s linear infinite;
+}
+
+.two{
+    background:white;
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.three{
+    background:white;
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+@keyframes MoveUpDown{
+    0%, 100% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 30px;
+    }
+}
