@@ -59,7 +59,9 @@ body{
     0%, 100% {
         bottom: 0;
     }
-    50% {
+    20% {
         bottom: 10px;
     }
-}
+    50% {
+     bottom: 0px;
+    }
